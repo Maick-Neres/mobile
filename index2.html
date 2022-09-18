@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="javascript.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+  <style>
+    body *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+    body{
+      background-image: linear-gradient(to bottom,rgb(255, 128, 149),rgb(251, 161, 176));
+      font-family: 'Inter', sans-serif;
+      height: auto;
+      font-size: 20px;
+          
+    }
+    header{
+     margin: 20px 0;
+    }
+    header h1{
+      text-align: center;
+    }
+
+    main{
+     
+      margin: auto;
+     position: relative;
+      max-width: 400px;
+      height: 600px;
+      padding: 10px;
+      
+
+    }
+    button{
+      background-color: white;
+      display: block;
+      width: 100px;
+      padding: 5px;
+      border-radius: 17px;
+     
+    }
+    span{
+      font-family: 'Inter', sans-serif;
+      font-weight:bolder;
+    }
+    #sim{
+      position: absolute;
+     top: 300px;
+     left: 40px;
+      cursor: pointer;
+
+    }
+    #sim:hover{
+      background-color:red;
+      color: white;
+     
+
+    }
+
+    #nao{
+      position: absolute;
+     top: 300px;
+     right: 40px;
+    }
+
+    #imagem{
+      position: relative;
+      max-width: 400px;
+      height: 600px;
+       display: none;
+    }
+
+    #imagem>img{
+      position: absolute;
+     
+      width: 100%;
+    }
+  </style>
+  <title>mobile</title>
+  
+</head>
+<body>
+  <header><h1 id="titulo">Quer namorar comigo?</h1></header>
+  <main>
+    <button id="sim" onclick="aceitar()"><span>SIM &#x1F491;</span></button>
+    <button id="nao" onmouseover="negaçao()"><span>NÂO&#x1F494;</span></button>
+    <div id="imagem">
+      
+      <img src="coração.png" alt="imagem de um coraçã">
+    </div>
+  </main>
+</body>
+</html>
