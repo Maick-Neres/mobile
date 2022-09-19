@@ -35,6 +35,7 @@ function aceitar() {
 
   }else if(tentativas>10){
     obj.innerHTML+="Tentativas: &#x1F622;&#x1F622;"+tentativas
+    obj.style.display="block"
 
 }
 }
