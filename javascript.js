@@ -13,10 +13,7 @@ function  negaçao(){
   botao1.style.right=Math.random()*300+"px";
    obj=document.getElementById("tentativas");
    tentativas+=1
-   if(tentativas>25){
-    alert(("O NÃO eu já tenho..."))
-   }
-   
+  
 }
 
 function aceitar() {
@@ -36,7 +33,7 @@ function aceitar() {
     obj.innerHTML+="Tentativas: &#x1F614;&#x1F614;"+tentativas
     obj.style.display="block"
 
-  }else if(tentativas>10 && tentativas<25){
+  }else if(tentativas>10){
     obj.innerHTML+="Tentativas: &#x1F622;&#x1F622;"+tentativas
     obj.style.display="block"
 }
