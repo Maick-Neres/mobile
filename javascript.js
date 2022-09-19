@@ -16,7 +16,7 @@ function aceitar() {
   img=document.getElementById("imagem");
   botao1.style.display="none";
   botao2.style.display="none";
-  h1=document.getElementById("titulo").innerHTML="È MEME HAHAHAHA &#x1F601;";
+  h1=document.getElementById("titulo").innerHTML="É MEME HAHAHAHA &#x1F601;";
   img.style.display="block"
 
 }
