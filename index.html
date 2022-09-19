@@ -84,6 +84,19 @@
      
       width: 100%;
     }
+
+    #tentativas{
+      position: absolute;
+      width: 90%;
+      height: 100px;
+      top: 500px;
+     display: none;
+     
+    }
+
+    #tentativas>p{
+      margin:35px 0;
+    }
   </style>
   <title>mobile</title>
   
@@ -94,9 +107,12 @@
     <button id="sim" onclick="aceitar()"><span>SIM &#x1F491;</span></button>
     <button id="nao" onmouseover="negaçao()"><span>NÂO&#x1F494;</span></button>
     <div id="imagem">
-      
       <img src="coração.png" alt="imagem de um coraçã">
     </div>
+  </div>
+  <div id="tentativas">
+    <p></p>
+  </div>
   </main>
 </body>
 </html>
