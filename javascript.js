@@ -26,7 +26,7 @@ function aceitar() {
   h1=document.getElementById("titulo").innerHTML="É MEME HAHAHAHA &#x1F601;";
   obj=document.getElementById("tentativas");
   img.style.display="block"
-  if (tentativas<=5){
+  if (tentativas>0 && tentativas<=5){
     obj.innerHTML+="Tentativas: &#x1F60E;&#x1F525; "+tentativas
     obj.style.display="block"
   }else if(tentativas>5 && tentativas<=10){
