@@ -24,7 +24,7 @@ function aceitar() {
   img.style.display="block"
   obj.style.display="block"
 
-  if(tentativas<=5){
+  if(tentativas<=5 || tentativas==0){
     obj.innerHTML+="Tentativas: &#x1F60E;&#x1F525; "+tentativas
   }else if(tentativas>5 && tentativas<=10){
     obj.innerHTML+="Tentativas: &#x128532;&#x128532;"+tentativas
