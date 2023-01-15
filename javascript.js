@@ -1,18 +1,14 @@
 var
  botao1, botao2, obj, img, number, h1, tentativas=0;
-
-
 function  negaçao(){
   botao1=document.getElementById("nao");
   botao1.style.top=Math.random()*550+"px";
   botao1.style.right=Math.random()*300+"px";
    obj=document.getElementById("tentativas");
-   tentativas+=1
-  
+   tentativas++;
 }
 
 function aceitar() {
- 
     botao1=document.getElementById("nao");
     botao2=document.getElementById("sim");
     img=document.getElementById("imagem");
